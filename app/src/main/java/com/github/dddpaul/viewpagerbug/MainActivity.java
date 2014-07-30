@@ -36,6 +36,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         mSectionsPagerAdapter = new SectionsPagerAdapter( getSupportFragmentManager() );
 
         // Set up the ViewPager with the sections adapter in portrait mode
+/*
         if( getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT ) {
             mViewPager = (ViewPager) findViewById( R.id.pager );
             mViewPager.setAdapter( mSectionsPagerAdapter );
@@ -57,6 +58,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                 );
             }
         }
+*/
     }
 
     @Override
