@@ -8,7 +8,7 @@ This application has two fragments and two layouts:
  
 The reason for this setup - I can display all fragments simultaneously while in landscape mode.
 
-And this works fine until we don't look inside heap more closely. So I did it because I've observed strange behaviour in my SimpleNetCat application when trying to implement multi-pane layout pattern. 
+And this works fine until we don't look inside heap more closely. So I did it because I've observed strange behaviour in my [SimpleNetCat application](https://github.com/dddpaul/android-SimpleNetCat) when trying to implement multi-pane layout pattern. 
 
 Testing setup:
 * OS - Ubuntu 12.04 LTS X86_64;
